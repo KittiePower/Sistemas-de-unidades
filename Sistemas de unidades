@@ -1,0 +1,34 @@
+/******************************************************************************
+Sistemas de unidades
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 26042022
+*******************************************************************************/
+
+#include <iostream>
+/*
+Ejemplo para uso de condicional if-else
+*/
+using namespace std;
+
+int main()
+{
+    int horasTrabajadas;
+    int pagoFinal;
+    
+    cout<<" Cuantas horas trabajo?";
+    cin>>horasTrabajadas;
+    if(horasTrabajadas<=40){
+        pagoFinal=horasTrabajadas*20;
+        cout<<" pago"<<endl;
+        
+    }
+    else
+    {
+        cout<<"Respuesta incorrecta"<<endl;
+    }
+    return 0;
+}
+
+
+
+
